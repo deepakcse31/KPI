@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_profile"
+    android:id="@+id/drawer_layout1"
+    android:fitsSystemWindows="true"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5F8FF">
+    <include
+        layout="@layout/toolbar"
+
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView5"
+        android:layout_width="82dp"
+        android:layout_height="92dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="566dp"
+        android:layout_marginLeft="566dp"
+        android:layout_marginTop="566dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginRight="177dp"
+        android:layout_marginBottom="499dp"
+        android:src="@drawable/boss"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="420dp"
+        android:background="#FFFFFF"
+        android:paddingTop="7dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:id="@+id/department"
+        android:layout_width="294dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="358dp"
+        android:background="#FFFFFF"
+        android:text="TextView"
+        android:paddingTop="5dp"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="116dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="357dp"
+        android:background="#FFFFFF"
+        android:text="Department"
+        android:paddingTop="5dp"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="125dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="294dp"
+        android:background="#FFFFFF"
+        android:text="Role"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="389dp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/role"
+        android:layout_width="295dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginRight="-3dp"
+        android:layout_marginBottom="295dp"
+        android:background="#FFFFFF"
+        android:text="TextView"
+        android:paddingTop="5dp"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <TextView
+        android:id="@+id/ward"
+        android:layout_width="291dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="219dp"
+        android:background="#FFFFFF"
+        android:paddingTop="5dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="408dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="62dp"
+        android:background="#FFFFFF"
+        android:text="TextView"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="627dp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="143dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="552dp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:paddingTop="5dp"
+        android:id="@+id/textView5"
+        android:layout_width="123dp"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="217dp"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:text="Ward" />
+</RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigation_view1"
+        app:menu="@menu/drawer_menu"
+        android:layout_gravity="start"
+        ></android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
